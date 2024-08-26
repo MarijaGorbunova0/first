@@ -1,0 +1,42 @@
+header{
+	display:flex; /* teksti värv*/
+	background: #eed0fa;
+	width:50%;
+	text-align:center;
+	border: solid 5px blue; /* piir - dashed, dotted, double*/
+	margin:0 auto;
+	border-radius: 60px 120px 60px 120px;
+	padding:1%;
+}
+ main section{
+	 background: #eed0fa;
+	 border: dotted 3px blue;
+	 margin:0 auto;
+	 width:40%;
+ }
+	 
+ nav ul{
+	    display:flex;
+	    list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow:hidden;
+		justify-content: center;
+ }
+ nav li{
+	 float: left;
+
+ }
+ nav li a{
+	 display:block;
+	 color: white;
+	 text-align: center;
+	 padding: 14px 16px;
+	 text-decoration:none;
+	 background:black;
+	 margin:0 auto;
+}
+  nav li a:hover{
+	  background:#111;
+	  
+  }
